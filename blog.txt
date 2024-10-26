@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Azylei L. Soria's Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Times New Roman', serif;
+            padding: 20px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .about-me {
+            margin-top: 30px;
+        }
+
+        .hobbies {
+            margin-top: 40px;
+        }
+
+        .activity-card {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Welcome to my Blog</h1>
+        </div>
+
+        <hr>
+
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Hi! I'm Azylei Soria. I am a Bachelor of Science in Information Systems (BSIS) student with a passion for technology and a solid foundation in information systems. I excel in analytical thinking, communication, and project management and love exploring new areas in tech.</p>
+        </section>
+
+        <hr>
+
+        <section class="hobbies">
+            <h2>Hobbies & Activities</h2>
+            <div class="row">
+                <div class="col-md-4 activity-card">
+                    <div class="card">
+                        <img src="gaming.jpg" class="card-img-top" alt="Gaming">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaming</h5>
+                            <p class="card-text">I love spending my free time immersed in video games, especially creating and developing on Roblox.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 activity-card">
+                    <div class="card">
+                        <img src="badminton.jpg" class="card-img-top" alt="Badminton">
+                        <div class="card-body">
+                            <h5 class="card-title">Badminton</h5>
+                            <p class="card-text">Playing badminton is one of my favorite ways to stay active and unwind. It’s a great way to stay fit while having fun with friends!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 activity-card">
+                    <div class="card">
+                        <img src="Cooking.jpg" class="card-img-top" alt="Cooking">
+                        <div class="card-body">
+                            <h5 class="card-title">Cooking</h5>
+                            <p class="card-text">Experimenting with new recipes is both a creative outlet and a way to relax. I enjoy turning simple ingredients into tasty dishes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="my-activities">
+            <h2>Interesting Facts</h2>
+            <ul>
+                <li>Currently studying Information Systems at the Technological University of the Philippines.</li>
+                <li>I love watching movies, especially superhero films.</li>
+                <li>One of my favorite things to do is ride my motorcycle at night.</li>
+                <li>Enjoys both competitive and recreational sports, especially badminton.</li>
+            </ul>
+        </section>
+
+        <hr>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
